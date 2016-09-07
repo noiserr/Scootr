@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Scootr</string>
+    <string name="LOGIN">Login</string>
+    <string name="USERNAME">Username</string>
+    <string name="PASSWORD">Password</string>
+    <string name="WRONG_PASSWORD">Wrong password</string>
+    <string name="FORGOT_PASSWORD">Forgot password?</string>
+    <string name="NOT_MY_PROBLEM">Not my problem</string>
+    <string name="NUMBER_PLATE">Number plate</string>
+    <string name="MILEAGE">Mileage</string>
+    <string name="OWNER">Owner</string>
+    <string name="DEFECT_DESCRIPTION">Defect description</string>
+    <string name="ADD_SCOOTER">Add scooter</string>
+    <string name="ADD_SCOOTER_ERROR">Scooter with %s number plate already exists</string>
+</resources>

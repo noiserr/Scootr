@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="8dp">
+
+
+        <CheckBox
+            android:id="@+id/fixed_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:checked="true"
+            android:buttonTint="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/defect_text_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-bold"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            tools:text="Speeworks poorly" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:minWidth="150dp"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/plate" />
+
+            <TextView
+                android:id="@+id/scooter_plate_textview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:gravity="center"
+                android:padding="8dp"
+                android:src="@drawable/plate"
+                android:textColor="@android:color/white"
+                android:textSize="32dp"
+                tools:text="D3530 IC" />
+
+            <TextView
+                android:id="@+id/owner_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|bottom"
+                android:textColor="@color/plate_number_color"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                tools:text="Mr User" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

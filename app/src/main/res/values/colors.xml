@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00acc1</color>
+    <color name="colorPrimaryLight">#80DEEA</color>
+    <color name="colorPrimaryDark">#00838F</color>
+    <color name="colorAccent">#F4FF81</color>
+    <color name="colorError">#E3004A</color>
+    <color name="plate_number_color">#DFDFDF</color>
+</resources>
